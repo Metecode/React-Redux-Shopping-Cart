@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+}
+
+.App > h1 {
+  font-size: 22px;
+  background: #188cd8;
+  color: #fff;
+  padding: 3px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App > div > h2 {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.App > div > h3 {
+  border-top: 1px solid #e1e1e1;
+  padding-top: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.product {
+  display: flex;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  border: 1px solid #e1e1e1;
+  transition: all 0.5s;
+}
+
+.product img {
+  width: 130px;
+  margin: 0 10px 0 0;
+}
+
+.product button {
+  cursor: pointer;
+  border: none;
+  background-color: #188cd8;
+  color: #fff;
+  border-radius: 5px;
+  padding: 3px 6px;
+}
+
+.link {
+  color: #188cd8;
+}
