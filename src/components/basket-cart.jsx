@@ -62,10 +62,10 @@ const BasketCart = (props) => {
               Sepetten Cikar
             </button>
             <button onClick={() => handleIncreaseQuantity(product.id)}>
-              Adeti Artır
+              +
             </button>
             <button onClick={() => handleDecreaseQuantity(product.id)}>
-              Adeti Azalt
+              -
             </button>
           </div>
         </div>
